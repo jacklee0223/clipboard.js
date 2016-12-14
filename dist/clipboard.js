@@ -733,6 +733,8 @@ module.exports = E;
         return Clipboard;
     }(_tinyEmitter2.default);
 
+    Clipboard.ClipboardAction = _clipboardAction2.default;
+
     /**
      * Helper function to retrieve attribute value.
      * @param {String} suffix

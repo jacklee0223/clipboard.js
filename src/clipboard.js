@@ -98,6 +98,7 @@ class Clipboard extends Emitter {
     }
 }
 
+Clipboard.ClipboardAction = ClipboardAction;
 
 /**
  * Helper function to retrieve attribute value.
